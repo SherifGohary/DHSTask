@@ -1,0 +1,12 @@
+E:\GitHub\DHCTask\DHSTask\DHSTask.Repository\bin\Debug\netcoreapp3.1\DHSTask.Repository.deps.json
+E:\GitHub\DHCTask\DHSTask\DHSTask.Repository\bin\Debug\netcoreapp3.1\DHSTask.Repository.dll
+E:\GitHub\DHCTask\DHSTask\DHSTask.Repository\bin\Debug\netcoreapp3.1\DHSTask.Repository.pdb
+E:\GitHub\DHCTask\DHSTask\DHSTask.Repository\bin\Debug\netcoreapp3.1\DHSTask.Data.dll
+E:\GitHub\DHCTask\DHSTask\DHSTask.Repository\bin\Debug\netcoreapp3.1\DHSTask.Data.pdb
+E:\GitHub\DHCTask\DHSTask\DHSTask.Repository\obj\Debug\netcoreapp3.1\DHSTask.Repository.csprojAssemblyReference.cache
+E:\GitHub\DHCTask\DHSTask\DHSTask.Repository\obj\Debug\netcoreapp3.1\DHSTask.Repository.csproj.CoreCompileInputs.cache
+E:\GitHub\DHCTask\DHSTask\DHSTask.Repository\obj\Debug\netcoreapp3.1\DHSTask.Repository.AssemblyInfoInputs.cache
+E:\GitHub\DHCTask\DHSTask\DHSTask.Repository\obj\Debug\netcoreapp3.1\DHSTask.Repository.AssemblyInfo.cs
+E:\GitHub\DHCTask\DHSTask\DHSTask.Repository\obj\Debug\netcoreapp3.1\DHSTask.Repository.csproj.CopyComplete
+E:\GitHub\DHCTask\DHSTask\DHSTask.Repository\obj\Debug\netcoreapp3.1\DHSTask.Repository.dll
+E:\GitHub\DHCTask\DHSTask\DHSTask.Repository\obj\Debug\netcoreapp3.1\DHSTask.Repository.pdb
