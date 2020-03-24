@@ -9,4 +9,3 @@ E:\GitHub\DHCTask\DHSTask\DHSTask.Data\bin\Debug\netcoreapp3.1\DHSTask.Data.runt
 E:\GitHub\DHCTask\DHSTask\DHSTask.Data\bin\Debug\netcoreapp3.1\DHSTask.Data.runtimeconfig.dev.json
 E:\GitHub\DHCTask\DHSTask\DHSTask.Data\obj\Debug\netcoreapp3.1\DHSTask.Data.genruntimeconfig.cache
 E:\GitHub\DHCTask\DHSTask\DHSTask.Data\obj\Debug\netcoreapp3.1\DHSTask.Data.csproj.CoreCompileInputs.cache
-E:\GitHub\DHCTask\DHSTask\DHSTask.Data\obj\Debug\netcoreapp3.1\DHSTask.Data.csprojAssemblyReference.cache

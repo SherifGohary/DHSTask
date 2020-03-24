@@ -2,7 +2,6 @@ E:\GitHub\DHCTask\DHSTask\DHSTask.Web\bin\Debug\netcoreapp3.1\appsettings.Develo
 E:\GitHub\DHCTask\DHSTask\DHSTask.Web\bin\Debug\netcoreapp3.1\appsettings.json
 E:\GitHub\DHCTask\DHSTask\DHSTask.Web\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 E:\GitHub\DHCTask\DHSTask\DHSTask.Web\bin\Debug\netcoreapp3.1\DHSTask.Web.exe
-E:\GitHub\DHCTask\DHSTask\DHSTask.Web\obj\Debug\netcoreapp3.1\DHSTask.Web.csprojAssemblyReference.cache
 E:\GitHub\DHCTask\DHSTask\DHSTask.Web\obj\Debug\netcoreapp3.1\DHSTask.Web.RazorAssemblyInfo.cache
 E:\GitHub\DHCTask\DHSTask\DHSTask.Web\obj\Debug\netcoreapp3.1\DHSTask.Web.RazorAssemblyInfo.cs
 E:\GitHub\DHCTask\DHSTask\DHSTask.Web\obj\Debug\netcoreapp3.1\DHSTask.Web.AssemblyInfoInputs.cache

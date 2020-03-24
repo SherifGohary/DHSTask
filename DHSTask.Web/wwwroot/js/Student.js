@@ -7,6 +7,9 @@
         let studentFname = $("#studenFName").val();
         let studentLname = $("#studentLname").val();
 
+        $("#studenFName").val('');
+        $("#studentLname").val('');
+
         $.ajax({
             cache: false,
             url: $(this).attr('action'),
@@ -15,7 +18,16 @@
             contentType: false,
             processData: false,
             success: function (response) {
-                AddNewStudentToTable(response.id, response.fname,response.lname);
+                let tr = `<tr id="${response.id}">
+                                <td class="studentFname">${response.fname}</td>
+                                <td class="studentLname">${response.lname}</td>
+                                <td>
+                                    <a href="#editStudentModal" onclick="EditStudentClick(this,'${response.id}')" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
+                                    <a href="#deleteStudentModal" onclick="DeleteStudentClick('${response.id}')" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
+                                </td>
+                          </tr>`;
+
+                $("table").append(tr);
             }
         });
     }
@@ -71,27 +83,13 @@ $(document).on('submit', '#editStudentForm', function (e) {
             contentType: false,
             processData: false,
             success: function (response) {
-                UpdateStudentRecord(studentId, studentFname, studentLname);
-                console.log(response);
+                $(`#${studentId}`).find(".studentFname").text(studentFname);
+                $(`#${studentId}`).find(".studentLname").text(studentLname);
             }
         });
     }
 });
 
-
-function AddNewStudentToTable(studentId,StudentFname,StudentLname) {
-
-    let html = `<tr id="${studentId}">
-                      <td class="studentFname">${StudentFname}</td>
-                      <td class="studentLname">${StudentLname}</td>
-                      <td>
-                          <a href="#editEmployeeModal" onclick="EditEmployeeClick(this,'@employee.Id')" class="edit" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
-                          <a href="#deleteEmployeeModal" onclick="DeleteEmployeeClick('@employee.Id')" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
-                      </td>
-                </tr>`;
-
-    $("table").append(html);
-}
 
 function DeleteStudentClick(studentId) {
     $("#deleteStudentModal .StudentId").val(studentId);
@@ -103,10 +101,4 @@ function EditStudentClick(elem, studentId) {
     var studentLname = $(elem.parentElement.parentElement).find(".studentLname").text();
     $("#editStudentModal .studentFname").val(studentFname);
     $("#editStudentModal .studentLname").val(studentLname);
-
-}
-
-function UpdateStudentRecord(StudentId, studentFname, studentLname) {
-    $(`#${StudentId}`).find(".studentFname").text(studentFname);
-    $(`#${StudentId}`).find(".studentLname").text(studentLname);
 }
